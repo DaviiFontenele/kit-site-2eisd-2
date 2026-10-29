@@ -1,0 +1,55 @@
+SITE DO 2º EISD · REVISÃO DE PRIVACIDADE (LGPD), ACESSIBILIDADE E RISCOS JURÍDICOS
+Data da revisão: 27/10/2026. Esta revisão é técnica e não substitui o parecer da Procuradoria Federal
+junto à Fiocruz, que deve aprovar os textos legais antes da publicação.
+
+1. O QUE FOI FEITO NO SITE
+- Rastreamento: não há Google Analytics, Tag Manager, pixels nem scripts de terceiros. Nada a remover.
+- Formulários: o site não tem formulários e não coleta dados pessoais. Inscrição e submissão ficam no
+  Campus Virtual Fiocruz (site externo, com política própria).
+- Google Fonts removido: as fontes agora ficam em assets/fonts (o IP do visitante não vai mais ao Google).
+- Google Maps: só carrega depois do consentimento (botão "Carregar mapa" ou aviso de cookies).
+- Aviso de cookies com "Somente necessários" e "Permitir conteúdos externos"; "Preferências de cookies"
+  no rodapé reabre o aviso a qualquer momento (revogação do consentimento).
+- Armazenamento local: apenas a escolha de cookies (eisd-consent) e o idioma (eisd-lang, só gravado
+  quando a pessoa troca o idioma).
+- Política de Privacidade, Termos de Uso e Política de Cookies: pop-ups abertos pelo rodapé.
+- Acessibilidade (WCAG 2.1 AA): link "Pular para o conteúdo"; área <main>; foco visível em links e botões;
+  todas as imagens com alt (descritivo nas informativas, vazio nas decorativas); contraste corrigido em
+  9 combinações (cabeçalhos dos dias, selos de país, botões e selos verdes, números da home, texto da
+  submissão); setas, pop-ups e carrossel acessíveis por teclado; respeito a "reduzir movimento".
+- Promessa sem comprovação removida: "Vagas limitadas!" virou "Inscrições abertas!".
+  Não há depoimentos, avaliações ou números de público inventados no site.
+
+2. DADOS LEGAIS A CONFIRMAR COM A FIOCRUZ
+- CNPJ: usado o da Fundação Oswaldo Cruz (33.781.055/0001-35, matriz). Confirmar se a política deve
+  citar o CNPJ da filial Fiocruz Ceará.
+- CEP: o site usa 61773-270; a Portaria Fiocruz nº 095/2018 registra a sede da Fiocruz Ceará com
+  CEP 61.760-000. Confirmar o correto e padronizar.
+- Encarregado de dados (DPO): usado o canal lgpd@fiocruz.br, citado em edital da Fiocruz. Confirmar
+  canal e nome atuais em portal.fiocruz.br (LGPD).
+- Foro: Justiça Federal, Seção Judiciária do Ceará (Fiocruz é fundação pública federal). Confirmar.
+
+3. RISCOS JURÍDICOS QUE CONTINUAM ABERTOS
+a) Direito de imagem dos palestrantes (Código Civil, art. 20; LGPD): 13 fotos vêm do site do 1º EISD.
+   Pedir autorização de uso de imagem de cada pessoa para este evento. O kit também registra a diretriz
+   da Fiocruz de não usar fotos de pessoas: confirmar se foi liberado.
+b) Logos de patrocinadores e apoiadores: exibir a marca sugere apoio formal. Ter autorização por escrito
+   de cada instituição (e confirmar o apoio). Atenção à Digital Care 2You, que não foi localizada.
+   Marcas de órgãos públicos (Ministério da Saúde, CNPq, FUNCAP, ESP-CE, Prefeitura) seguem manuais
+   próprios e regras do período eleitoral.
+   Ministério da Saúde: a assinatura com SUS usada é a do manual "SUS 35 anos" (Wikimedia Commons, CC0), que o
+   próprio manual dá como válida até setembro de 2026. Pedir ao Ministério a assinatura vigente para o evento.
+c) Fotos do espaço (assets/fotos/espaco): vêm do site do LARIISA. Confirmar autoria e crédito
+   (fotógrafo) e pedir os originais em alta resolução.
+d) Informações não confirmadas: "4 países" inclui a Rússia, cujos representantes ainda não têm nome;
+   "24 horas" de certificado e "100% gratuito" devem bater com os editais do Campus Virtual.
+   Instituições "a confirmar" (Vinicius Oliveira, Debora Dupas, Raphael Saldanha, Rebecca).
+e) Textos legais em português apenas: as versões EN/ES/中文 do site mostram os títulos traduzidos e
+   avisam que o texto está em português. Traduzir só após aprovação jurídica.
+f) Conteúdo produzido com apoio de IA: não há hoje lei no Brasil que obrigue a informar isso
+   (o PL 2338/2023 ainda tramita). O risco real está em direitos autorais e de imagem (itens a, b, c)
+   e na exatidão das informações (item d), por isso a revisão humana antes de publicar.
+g) Hospedagem (WordPress em lariisasaudedigital.com): plugins, formulários de contato e estatísticas
+   do WordPress podem coletar dados que esta página não controla. Revisar o site inteiro, não só a página.
+h) Acessibilidade: a revisão foi automatizada e visual. Recomenda-se teste com leitor de tela
+   (NVDA/VoiceOver) e conferência pelo eMAG (modelo de acessibilidade do governo federal).

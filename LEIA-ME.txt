@@ -1,0 +1,34 @@
+KIT DE IMPLEMENTAÇÃO · PÁGINA 2º EISD
+lariisasaudedigital.com · WordPress + Elementor
+
+referencia-pagina-2eisd.html  Página completa em HTML/CSS. Abra no navegador e use como referência
+                              visual e de medidas. Pode copiar blocos para o widget HTML do Elementor.
+Idiomas (PT, EN, ES, 中文): botões no menu. As traduções ficam no <script> no fim do HTML,
+                              usando o texto em português como chave. Ao mudar um texto em PT, atualize a chave lá.
+                              Link direto por idioma: referencia-pagina-2eisd.html?lang=en (ou es, zh).
+eisd-tokens.css               Cores, fontes e classes (.eisd-titulo, .eisd-btn, .eisd-etiqueta...).
+                              Colar em Elementor > Configurações do site > CSS personalizado.
+assets/                       Símbolo do evento (colorido e branco) e foto da sede.
+assets/fotos/                 Fotos da coordenação geral (Ivana, Odorico, Elaine), retiradas do site do 1º EISD.
+assets/logos/                 Logos de Patrocínio e apoio, baixadas dos sites oficiais (out/2026). FUNCAP, ESP-CE e
+                              Unichristus só publicam a versão branca (ficam em cartão azul). Falta: Digital Care 2You.
+assets/fotos/espaco/          Fotos dos prédios da Fiocruz Ceará (abaixo do mapa), recortadas da imagem "Espaço do evento"
+                              do site do 1º EISD. Baixa resolução: trocar pelos originais quando possível.
+assets/fonts/                 Fontes hospedadas no próprio site (SIL Open Font License). Não usa mais o Google Fonts.
+assets/fotos/amplas/          Fotos inteiras (sem recorte redondo) usadas no pop-up do Minicurrículo.
+assets/svg/globo-fundo.svg    Globo da home, camada de trás (esfera). O meio é desenhado no <canvas> pelo script
+assets/svg/globo-frente.svg   "Globo" (continentes do Natural Earth girando); a camada da frente tem anéis e ícones.
+assets/svg/                   Figuras de tecnologia (globo em rede e cruz em rede, versões clara e escura),
+                              cruz, ondas, formas orgânicas e ícones da marca, em SVG.
+
+Diretriz da Fiocruz: não usar fotos de pessoas. Usar figuras ligadas a tecnologia e aos temas do evento.
+
+Fontes (arquivos locais em assets/fonts, licença SIL OFL): Archivo Black (títulos), Barlow 500–800 (textos),
+Playpen Sans 700 (destaques). No WordPress, subir os arquivos .woff2 e manter as regras @font-face do <head>.
+
+Privacidade: o mapa do Google só carrega com consentimento (aviso de cookies). Os textos de Política de
+Privacidade, Termos de Uso e Política de Cookies estão no próprio HTML (pop-ups do rodapé).
+Ver CONFORMIDADE-LGPD-ACESSIBILIDADE.txt antes de publicar.
+
+Pendentes com a equipe do evento: logos dos parceiros, fotos e nomes dos palestrantes,
+fotos da coordenação e das comissões, locais (sala) de cada sessão e composição das mesas.

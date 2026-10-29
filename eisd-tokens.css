@@ -1,0 +1,35 @@
+:root{
+  --eisd-navy:#003366;   /* azul-escuro: texto, fundos fortes */
+  --eisd-green:#4CAF50;  /* verde: botão principal, destaques */
+  --eisd-green-text:#2E7D32; /* verde para texto pequeno sobre branco */
+  --eisd-blue:#3399FF;   /* azul vivo: acentos */
+  --eisd-blue-text:#1F6FBF;
+  --eisd-sky:#6FA2D2;    /* azul-claro: formas, sombras */
+  --eisd-bg:#F0F0F0;     /* fundo da página */
+  --eisd-white:#FFFFFF;
+  --eisd-font-display:'Archivo Black',Impact,sans-serif;
+  --eisd-font-body:'Barlow',Arial,sans-serif;
+  --eisd-font-hand:'Playpen Sans',cursive;
+  --eisd-radius-card:28px; --eisd-radius-pill:999px;
+}
+/* Título: letra cheia na cor, sem contorno nem sombra */
+.eisd-titulo{font-family:var(--eisd-font-display);font-weight:400;text-transform:uppercase;line-height:.98;
+  font-size:clamp(38px,4.6vw,64px);color:var(--eisd-navy)}
+.eisd-titulo--escuro{color:var(--eisd-green)}
+.eisd-titulo--verde{color:var(--eisd-navy)}
+/* Etiqueta (kicker) */
+.eisd-etiqueta{display:inline-flex;align-items:center;gap:10px;background:var(--eisd-navy);color:#fff;
+  font:800 13px/1 var(--eisd-font-body);letter-spacing:2.2px;text-transform:uppercase;padding:11px 16px;border-radius:10px}
+/* Botões */
+.eisd-btn{display:inline-flex;align-items:center;gap:12px;min-height:58px;padding:0 30px;border-radius:var(--eisd-radius-pill);
+  font:800 17px/1 var(--eisd-font-body);letter-spacing:.8px;text-transform:uppercase;text-decoration:none}
+.eisd-btn--principal{background:var(--eisd-green);color:#fff;box-shadow:6px 6px 0 var(--eisd-navy)}
+.eisd-btn--secundario{background:var(--eisd-navy);color:#fff;box-shadow:6px 6px 0 var(--eisd-green)}
+.eisd-btn--contorno{border:2.5px solid currentColor;color:var(--eisd-navy)}
+.eisd-btn:focus-visible{outline:3px solid var(--eisd-blue);outline-offset:3px}
+/* Card e sombra sólida da marca */
+.eisd-card{background:#fff;border-radius:var(--eisd-radius-card);padding:32px}
+.eisd-sombra{box-shadow:8px 8px 0 var(--eisd-green)}
+/* Fundo pontilhado (tecnologia) */
+.eisd-pontos{background-image:radial-gradient(rgba(0,51,102,.13) 2px,transparent 2.4px);background-size:32px 32px}
+.eisd-pontos--claro{background-image:radial-gradient(rgba(255,255,255,.10) 2px,transparent 2.4px)}
