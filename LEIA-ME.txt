@@ -1,11 +1,11 @@
 KIT DE IMPLEMENTAÇÃO · PÁGINA 2º EISD
 lariisasaudedigital.com · WordPress + Elementor
 
-referencia-pagina-2eisd.html  Página completa em HTML/CSS. Abra no navegador e use como referência
+index.html  Página completa em HTML/CSS. Abra no navegador e use como referência
                               visual e de medidas. Pode copiar blocos para o widget HTML do Elementor.
 Idiomas (PT, EN, ES, 中文): botões no menu. As traduções ficam no <script> no fim do HTML,
                               usando o texto em português como chave. Ao mudar um texto em PT, atualize a chave lá.
-                              Link direto por idioma: referencia-pagina-2eisd.html?lang=en (ou es, zh).
+                              Link direto por idioma: index.html?lang=en (ou es, zh).
 eisd-tokens.css               Cores, fontes e classes (.eisd-titulo, .eisd-btn, .eisd-etiqueta...).
                               Colar em Elementor > Configurações do site > CSS personalizado.
 assets/                       Símbolo do evento (colorido e branco) e foto da sede.
